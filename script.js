@@ -87,7 +87,7 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 // Observe all cards
-document.querySelectorAll('.about-card, .service-card').forEach(card => {
+document.querySelectorAll('.about-card, .service-card, .gallery-item').forEach(card => {
     card.style.opacity = '0';
     card.style.transform = 'translateY(30px)';
     card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
