@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - 홈페이지</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">MyWebsite</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">홈</a></li>
+                <li><a href="#about" class="nav-link">소개</a></li>
+                <li><a href="#services" class="nav-link">서비스</a></li>
+                <li><a href="#contact" class="nav-link">연락처</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="https://cataas.com/cat" alt="귀여운 고양이" class="hero-cat">
+            <h1 class="hero-title">환영합니다</h1>
+            <p class="hero-subtitle">현대적이고 아름다운 웹사이트</p>
+            <button class="cta-button">시작하기</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">소개</h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="icon">🚀</div>
+                    <h3>빠른 속도</h3>
+                    <p>최적화된 성능으로 빠른 로딩 속도를 제공합니다.</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon">💡</div>
+                    <h3>혁신적인 디자인</h3>
+                    <p>현대적이고 세련된 UI/UX를 경험하세요.</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon">🎯</div>
+                    <h3>목표 달성</h3>
+                    <p>여러분의 비즈니스 목표를 함께 달성합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">서비스</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>웹 개발</h3>
+                    <p>반응형 웹사이트 및 웹 애플리케이션 개발</p>
+                </div>
+                <div class="service-card">
+                    <h3>모바일 앱</h3>
+                    <p>iOS 및 Android 모바일 애플리케이션 개발</p>
+                </div>
+                <div class="service-card">
+                    <h3>UI/UX 디자인</h3>
+                    <p>사용자 중심의 인터페이스 디자인</p>
+                </div>
+                <div class="service-card">
+                    <h3>컨설팅</h3>
+                    <p>디지털 전환 및 기술 컨설팅 서비스</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">연락처</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="이름" required>
+                <input type="email" placeholder="이메일" required>
+                <textarea placeholder="메시지" rows="5" required></textarea>
+                <button type="submit" class="submit-button">보내기</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
